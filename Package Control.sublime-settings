@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Block Cursor Everywhere",
+		"OpenGL Shading Language (GLSL)",
+		"Package Control",
+		"RGBDS",
+		"Terminus",
+	],
+}

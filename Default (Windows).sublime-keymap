@@ -1,0 +1,27 @@
+[
+    // Some general-purpose key bindings for working with Sublime.
+    { "keys": ["ctrl+alt+p"],   "command": "prompt_select_workspace" },
+    { "keys": ["ctrl+alt+w"],   "command": "close_workspace"         },
+    { "keys": ["ctrl+shift+w"], "command": "toggle_setting", "args": { "setting": "word_wrap" } },
+    { "keys": ["ctrl+alt+k"],   "command": "toggle_side_bar"         },
+    { "keys": ["ctrl+alt+v"],   "command": "toggle_minimap"          },
+    { "keys": ["alt+enter"],    "command": "toggle_full_screen"      },
+
+    // Remove some key bindings we don't use that can be annoying.
+    { "keys": ["ctrl++"],            "command": "noop" },
+    { "keys": ["ctrl+="],            "command": "noop" },
+    { "keys": ["ctrl+keypad_plus"],  "command": "noop" },
+    { "keys": ["ctrl+-"],            "command": "noop" },
+    { "keys": ["ctrl+keypad_minus"], "command": "noop" },
+
+    {
+        "keys": ["f1"],
+        "command": "terminus_open",
+        "args" :
+        {
+            "cmd": "cmd.exe",
+            "cwd": "${file_path:${folder}}",
+            "panel_name": "Terminus"
+        }
+    }
+]

@@ -1,0 +1,43 @@
+{
+    "name": "JROB774 Color Scheme",
+    "globals":
+    {
+        "background": "#000000",
+        "foreground": "#B5BD68",
+        "line_highlight": "#141414",
+        "caret": "#B5BD68",
+        "block_caret": "#B5BD68",
+        "selection": "#B5BD68",
+        "selection_foreground": "#000000",
+        "selection_corner_style": "square",
+        "misspelling": "#FF0000",
+        "line_diff_added": "#00FF00",
+        "line_diff_modified": "#FFFF00",
+        "line_diff_deleted": "#FF0000"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#42576B"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#FFFF00"
+        },
+        {
+            "name": "Invalid (Illegal)",
+            "scope": "invalid.illegal",
+            "foreground": "#000000",
+            "background": "#FF0000"
+        },
+        {
+            "name": "Invalid (Deprecated)",
+            "scope": "invalid.deprecated",
+            "foreground": "#000000",
+            "background": "#FFFF00"
+        }
+    ]
+}

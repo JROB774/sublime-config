@@ -1,0 +1,10 @@
+// These settings override both User and Default settings for the RGBDS syntax
+{
+    "rulers":
+    [
+        9,
+        28,
+        80,
+        100
+    ],
+}
